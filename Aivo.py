@@ -5,7 +5,7 @@ import asyncio
 import json
 import datetime
 import inspect
-#import keep_alive
+import keep_alive
 
 def get_prefix(bot, message):
     if not message.server:
